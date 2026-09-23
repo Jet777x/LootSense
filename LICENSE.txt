@@ -1,0 +1,22 @@
+Loot Sense
+Copyright (c) 2026 Jet777. All rights reserved.
+
+You may download Loot Sense from its official page
+(https://github.com/Jet777x/LootSense) and use it for free, for your own
+personal use.
+
+You may not, without written permission from the author:
+- copy, re-upload or distribute Loot Sense or any part of it, changed or not
+  (share the link to the official page instead);
+- sell it, rent it, or include it in anything that is sold;
+- modify, decompile or reverse engineer it, except where the law allows this;
+- publish it, or anything made from it, under another name, or present it as
+  your own work.
+
+Loot Sense is provided "as is", without warranty of any kind. The author is
+not liable for any loss or damage that comes from using it, including loss of
+in-game items or currency and restrictions placed on your account or IP by the
+trade site.
+
+Loot Sense is not affiliated with or endorsed by Grinding Gear Games. Path of
+Exile and its artwork are the property of Grinding Gear Games.
