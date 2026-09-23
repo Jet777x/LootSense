@@ -81,9 +81,19 @@ No, Path of Exile 2 only.
 
 **Where are my settings? How do I uninstall?**
 Everything Loot Sense remembers is in `C:\Users\<you>\.loot_sense`. If you
-use OneDrive, it also keeps a daily backup of that folder in
-`OneDrive\LootSense backups` (the last 7). To uninstall, delete the Loot Sense
-folder and those two.
+turn on the daily backup in Settings, the last 7 copies are also kept in
+`OneDrive\LootSense backups` (or `Documents\LootSense backups`). To uninstall,
+delete the Loot Sense folder, that folder, and the backups if you made any.
+
+**What does it connect to?**
+Only the Path of Exile website (the trade site), poe.ninja and poe2scout (for
+prices), and this page to see if there's a new version.
+No tracking, no ads, no accounts. It only looks at copied text that is a Path
+of Exile item; anything else you copy is ignored.
+
+**How do I know my download is the real one?**
+Download only from this page. Each release lists a SHA-256 checksum: in
+PowerShell, `Get-FileHash LootSense-1.0.0.zip` should print the same one.
 
 ## License
 
