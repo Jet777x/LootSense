@@ -20,7 +20,7 @@
   how sure it is. Junk just says **Vendor it**.
 - **Watches your shop.** It checks your trade listings and tells you what to
   vendor, lower, raise or re-check.
-- **Keeps your loot filter up to date.** NeverSink's strict filter with live
+- **Keeps your loot filter up to date.** NeverSink's very strict filter with live
   prices on top, rebuilt every 30 minutes.
 - **Knows currency.** Orbs, runes, essences and the like are priced at the
   in-game exchange rate.
@@ -57,8 +57,10 @@ Loot Sense tells you when a new version is out.
 price note). Loot Sense then finds your listings by itself and checks them
 regularly.
 
-**Loot filter:** pick **LootSense-NeverSink** in the game's options. The file
-lives in `Documents\My Games\Path of Exile 2`.
+**Loot filter:** follow NeverSink's **4-Very-Strict** filter on pathofexile.com
+(Item Filters) first, then pick **LootSense-NeverSink** in the game's options.
+Until then, **LootSense** works on its own. The files live in
+`Documents\My Games\Path of Exile 2`.
 
 ## FAQ
 
@@ -93,7 +95,8 @@ of Exile item; anything else you copy is ignored.
 
 **How do I know my download is the real one?**
 Download only from this page. Each release lists a SHA-256 checksum: in
-PowerShell, `Get-FileHash LootSense-1.0.0.zip` should print the same one.
+PowerShell, `Get-FileHash` on the zip (for example `Get-FileHash LootSense-1.1.0.zip`)
+should print the same one.
 
 ## License
 
