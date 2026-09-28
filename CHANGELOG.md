@@ -1,5 +1,42 @@
 # Changelog
 
+## 1.2.0 - 2026-09-28
+
+**Easier to install**
+- A proper installer: run LootSense-Setup, and Loot Sense is in your Start menu (and on your
+  desktop if you like), uninstalls from Windows Settings, and updates by running the new setup.
+- The portable zip is tidy too: the folder shows just **Loot Sense.exe**, a how-to and the
+  license; the program's own files are in an "app" folder.
+
+**Prices**
+- Prices are shown in the currency sellers actually use for items like yours:
+  whole Divines when similar items ask in Divines, Chaos just under a Divine,
+  and Exalts only for smaller prices. No more "411 Exalted" next to listings
+  asking 1 Divine.
+- Exalt prices are rounded the way people list them (25, 40, 410 instead of
+  23, 38, 411).
+- One seller's high ask is no longer taken as the price when a cheaper copy
+  has sat unsold: the item is listed at ~10ex and marked low confidence.
+- When only two or three sellers list an item, the price never goes above
+  the cheapest one that is as good as yours or better.
+- Items with +skill levels are no longer priced at a couple of exalts: they're
+  listed at ~10ex, or told to vendor when two copies as good are listed cheaper.
+
+**Trade limits**
+- When the trade site's per-minute limit kicks in, the check waits it out
+  with a countdown instead of stopping.
+- Searches are remembered for 15 minutes, so checking the same item again
+  doesn't use up the limit, and a check the limit cut short is finished in
+  the background.
+
+**Everything else**
+- A small "Support Loot Sense" link (Ko-fi) in the status bar, Settings and
+  the tray menu, if you'd like to buy the author a coffee. Loot Sense stays
+  free.
+- If your league has ended, the status bar says so and points you to
+  Settings to pick the new one.
+- After this update, your listings are re-priced in the background once.
+
 ## 1.1.0 - 2026-09-25
 
 A big round of fixes, most of them to prices.

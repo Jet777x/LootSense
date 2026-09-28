@@ -7,6 +7,8 @@
 <p align="center">
   A price checker for <b>Path of Exile 2</b>: copy an item, see what it's worth.<br>
   <a href="../../releases/latest"><b>Download the latest version</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://ko-fi.com/jet777">Support it on Ko-fi</a>
 </p>
 
 <p align="center">
@@ -14,6 +16,10 @@
 </p>
 
 ## What it does
+
+Loot Sense doesn't just look a price up - it tells you what to do with the item:
+**vendor it**, **list it at this**, or **wait for that**, in the currency people
+actually trade it in.
 
 - **Prices items on Ctrl+C.** A small overlay shows what an item is worth right
   in game: a quick-sale price, the price to list at, and a patient price, with
@@ -31,12 +37,17 @@
 
 ## Install
 
-1. Download the zip from **[Releases](../../releases/latest)**.
-2. Unzip the **Loot Sense** folder anywhere and keep its files together.
-3. Double-click **LootSense.exe**.
+1. Download **LootSense-Setup** from **[Releases](../../releases/latest)** and run it.
+2. Windows may say *"Windows protected your PC"*. Click **More info → Run anyway**
+   (Loot Sense isn't code-signed: signing certificates cost money).
+3. Loot Sense starts when setup finishes. Next time, find it in the Start menu
+   or on your desktop.
 
-The first time, Windows may say *"Windows protected your PC"*. Click
-**More info → Run anyway**.
+To update, run the new setup: it closes Loot Sense, updates it and keeps your
+settings.
+
+**Rather not install?** Download the **portable** zip instead, unzip it
+anywhere and double-click **Loot Sense.exe**.
 
 Closing the window keeps Loot Sense running in the tray (next to the clock).
 Right-click the tray icon and choose **Exit** to quit.
@@ -85,7 +96,10 @@ No, Path of Exile 2 only.
 Everything Loot Sense remembers is in `C:\Users\<you>\.loot_sense`. If you
 turn on the daily backup in Settings, the last 7 copies are also kept in
 `OneDrive\LootSense backups` (or `Documents\LootSense backups`). To uninstall,
-delete the Loot Sense folder, that folder, and the backups if you made any.
+go to Windows **Settings → Apps → Installed apps → Loot Sense → Uninstall**
+(for the portable version, delete its folder). Uninstalling keeps your
+settings; to remove everything, also delete the `.loot_sense` folder and any
+backups.
 
 **What does it connect to?**
 Only the Path of Exile website (the trade site), poe.ninja and poe2scout (for
@@ -95,8 +109,21 @@ of Exile item; anything else you copy is ignored.
 
 **How do I know my download is the real one?**
 Download only from this page. Each release lists a SHA-256 checksum: in
-PowerShell, `Get-FileHash` on the zip (for example `Get-FileHash LootSense-1.1.0.zip`)
-should print the same one.
+PowerShell, `Get-FileHash` on the file you downloaded (for example
+`Get-FileHash LootSense-Setup-1.2.0.exe`) should print the same one.
+
+**Is it free?**
+Yes, completely: no ads, no premium version, no account. If it saves you some
+currency and you'd like to say thanks, there's a Ko-fi link below.
+
+## Support
+
+Loot Sense is free and made in my spare time. If it's been useful, you can
+buy me a coffee - it keeps the updates coming.
+
+<a href="https://ko-fi.com/jet777"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-FF5E5B?logo=ko-fi&logoColor=white" alt="Support Loot Sense on Ko-fi"></a>
+
+Found a bug or have an idea? [Open an issue](../../issues/new/choose).
 
 ## License
 
