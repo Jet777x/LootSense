@@ -32,7 +32,7 @@ actually trade it in.
   in-game exchange rate.
 
 <p align="center">
-  <img src="docs/overlay.png" width="840" alt="The overlay: a rare ring, a magic jewel, and an item to vendor">
+  <img src="docs/overlay.png" width="840" alt="The overlay: a rare wand priced in divines, and an item to vendor">
 </p>
 
 ## Install
